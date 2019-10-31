@@ -1,4 +1,4 @@
-closeOtherTabs = function (word) {
+closeOtherTabs = function () {
   chrome.tabs.query(
     { currentWindow: true, active: false },
     function (tabs) {
