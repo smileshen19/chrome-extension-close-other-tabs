@@ -1,0 +1,13 @@
+{
+  "name": "Close Other Tabs",
+  "version": "1.0",
+  "description": "Close other tabs.",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "page": "background.html"
+  }
+}
